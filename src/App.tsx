@@ -4,7 +4,7 @@ import { BrowserRouter as Router   } from 'react-router-dom';
 import CardContainer from './Card';
 import SearchBar from './SearchBar';
 import { FaShoppingCart, FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
-
+//type
 interface CardData {
   title: string;
   description: string;
