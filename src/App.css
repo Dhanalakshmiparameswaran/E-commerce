@@ -1,0 +1,293 @@
+.bd{
+  background-color: rgb(226, 245, 251);
+}
+.navbar{
+  margin-right: 20px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  border-radius: 10px;
+  width: 1830px;
+  background-color: rgb(62, 184, 189);
+}
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.icdiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.icon{
+  width: 50px;
+  height: 50px;
+  margin-top: 35px;
+  margin-left: 20px;
+}
+
+.Appname{
+  font-size: 40px;
+  color: rgb(4, 10, 10);
+  padding-left: 30px;
+}
+.nav-link {
+  display: block;
+  padding: 20px;
+  font-size: 40px;
+}
+.Card-bn{
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+ margin-right: 20px;
+
+}
+.cart-container {
+  margin-top: 20px;
+}
+.cart-items-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cart-item {
+  width: 250px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 20px;
+  width: 250px;
+}
+.cart-image {
+  width: 100%;
+  height: 200px;
+}
+.cart-details {
+  text-align: center;
+  padding: 10px;
+}
+
+.remove-btn {
+  margin-top: 10px;
+  padding:10px;
+  background-color: #ff5f5f;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.remove-btn:hover {
+  background-color: #ff3b3b;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px;
+  width: 250px;
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 1.2em;
+  margin: 0;
+  text-align: center;
+}
+
+.card-description {
+  font-size: 1em;
+  text-align: center;
+}
+.card-price{
+  text-align: center;
+}
+.card-btn{
+  padding: 10px;
+  width: 100%;
+  color: black;
+  background-color: rgb(157, 218, 169);
+  font-weight: 500;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust as needed */
+}
+
+.in{
+  padding: 10px;
+  padding-left: 100px;
+  margin-top: 40px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+.sbtn{
+  padding: 10px;
+  background-color: rgb(196, 197, 212);
+  border-radius: 5px;
+}
+.ah1{
+  text-align: center;
+  font-weight: 1200;
+  font-size: 40px;
+}
+.aimg{
+  margin: 20px;
+  border-radius: 10px;
+}
+.aimgdiv{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.p1{
+  padding-left: 100px;
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+}
+.aimg2{
+  margin: 20px;
+  border-radius: 10px;
+  padding-bottom: 25px;
+}
+.foot{
+  text-align: center;
+ 
+}
+.trans{
+  box-shadow: 5px;
+  cursor: pointer;
+  transition: 400ms;
+}
+.trans:hover{
+  filter: grayscale(1);
+  transform: scale(1.03);
+}
+.footer {
+  margin-top: 0px;
+  background-color:rgb(62, 184, 189);
+  padding: 20px ;
+  color: #333;
+  font-family: Arial, sans-serif;
+  border-radius: 10px;
+}
+
+
+.footerContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footerSection {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footerSection h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footerSection ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footerSection ul li {
+  margin-bottom: 8px;
+}
+
+.footerSection ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footerSection ul li a:hover {
+  text-decoration: underline;
+}
+
+.socialMedia {
+  padding-left: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.socialMedia li {
+  list-style: none;
+}
+
+.socialMedia li a {
+  color: #333;
+  font-size: 20px;
+}
+.cbtn{
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  background: rgb(112, 206, 202);
+  margin-left: 850px; 
+}
+.ep1{
+  text-decoration: none;
+  color: #0e0c0c;
+  font-size: 20px;
+  padding: 5px;
+}
+.pad{
+  margin-top: 10px;
+}
+.ych2{
+  text-align: center;
+  font-weight: 700;
+}
+.cart-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+.cart-popup-content {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #888;
+}
+.clbtn{
+  padding: 10px;
+}
