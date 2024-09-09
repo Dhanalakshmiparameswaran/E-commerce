@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import './App.css';
-import { BrowserRouter as Router   } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import CardContainer from './Card';
 import SearchBar from './SearchBar';
 import { FaShoppingCart, FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
-
+//type
 interface CardData {
   title: string;
   description: string;
@@ -17,11 +17,11 @@ const App: React.FC = () => {
   const [hideImages, setHideImages] = useState(false);
   const [cartItems, setCartItems] = useState<CardData[]>([]);
   const [showCartPopup, setShowCartPopup] = useState(false); 
+  // const navigate=useNavigate();
 
   const handleSearch = (query: string) => {
     console.log('Search query:', query);
   };
-
   const toggleCard = () => {
     setShowCard(prevState => !prevState);
     setHideImages(prevState => !prevState);
@@ -89,6 +89,7 @@ const App: React.FC = () => {
       )}
         <br />
         <hr className='pad'></hr>
+        {/* <button onClick={()=>navigate("/")} >Back</button> */}
         <h1 className='ah1'>Our Products</h1>
         <br />
         {!hideImages && (
@@ -117,7 +118,7 @@ const App: React.FC = () => {
         )}
         <div>
         {!hideImages &&<button className='cbtn' onClick={toggleCard} ><a className='ep1' href="#product">Explore more</a></button>}
-          {showCard && <CardContainer onAddCard={handleAddCard} />}
+          { showCard && <CardContainer onAddCard={handleAddCard} />}
           {!hideImages &&
           <h2 className='foot'>Show and view more.....!</h2>
           }

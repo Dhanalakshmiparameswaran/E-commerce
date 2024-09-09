@@ -2,25 +2,32 @@
   background-color: rgb(226, 245, 251);
 }
 .navbar{
-  margin-right: 20px;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   border-radius: 10px;
-  width: 1830px;
   background-color: rgb(62, 184, 189);
+  display: flex;
+  justify-content: space-evenly;
 }
+
 .nav-list {
   list-style-type: none;
-  margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.nav-item{
+  margin-right: 100px;
+  flex-wrap: wrap;
+
 }
 .icdiv{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  margin-right: 10px;
+  margin-right: 20px;
 }
 .icon{
   width: 50px;
@@ -39,6 +46,9 @@
   padding: 20px;
   font-size: 40px;
 }
+.search{
+  margin-left: 50px;
+}
 .Card-bn{
   padding: 10px;
   border-radius: 10px;
@@ -46,6 +56,7 @@
   margin-top: 40px;
   margin-bottom: 10px;
  margin-right: 20px;
+ margin-left: 150px;
 
 }
 .cart-container {
